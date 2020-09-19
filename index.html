@@ -1,0 +1,224 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/short-cat-icon.png" type="image/png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Престиж</title>
+</head>
+<body>
+    <div class="header-bg">
+        <header>
+            <div class="up__header__block">
+                <div class="syte__logo">
+                    <a href="#"><img src="img/logo.png" alt="syte-logo"></a>
+                </div>
+                <p class="information__header__text">
+                    Срочный выкуп и быстрая продажа<br>
+                    недвижимости в Москве и МО
+                </p>
+                <nav class="off header__nav">
+                    <a href="#">Главная</a>
+                    <a href="#">Недвижимость</a>
+                    <a href="#">Где мы</a>
+                    <a href="#">Связь</a>
+                    <button class="free__consultation">
+                        Продать
+                    </button>
+                </nav>
+                <div class="communication">
+                    <p class="telephone__number">
+                        +7 (499) 638-21-63
+                    </p>
+                    <button class="free__consultation">
+                        Бесплатная консультация
+                    </button>
+                </div>
+                <div class="burger__menu">
+                    <a href="#" class="burger__menu__button" onclick="burgerMenu(this)">
+                        <img src="img/burger-menu.png" alt="burger-menu">
+                    </a>
+                </div>
+            </div>
+            <div class="next__header__block">
+                <div class="left__block__header">
+                    <h3>
+                        Гарантировано продадим вашу
+                        недвижимость до 10% дороже
+                        рыночной цены всего за 21 день
+                        по технологии <img src="img/smart-sale.png" alt="smart-sale">
+                    </h3>
+                    <button class="find__cost__sales">
+                        узнать стоимость продажи
+                    </button>
+                </div>
+                <div class="right__block__header">
+                    <button class="find__all__company">
+                        <img src="img/run-icon.png" alt="run">
+                    </button>
+                    <p>Узнайте все о нашей  компании за 60 секунд</p>
+                </div>
+            </div>
+            <div class="facts__header">
+                <h4>
+                    Продано недвижимости на 4,5 миллиарда<br>
+                    рублей за 7 лет
+                </h4>
+                <h4>
+                    Юридическое сопровождение 24/7
+                </h4>
+                <h4>
+                    Продажа залоговый/ипотечной<br>
+                    недвижимости
+                </h4>
+            </div>
+        </header>
+    </div>
+    <div class="first__block">
+        <div class="preview">
+            <h3>
+                Почему мы продаем недвижимость дорого и<br>
+                в <span>3 раза</span> быстрее <span>99%</span> других агенств
+            </h3>
+        </div>
+        <form action="" class="first__form form">
+            <div class="left__block__form">
+                <p class="form__preview">
+                    Cобственная база покупателей
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-1" value='1' id='1'>
+                    <label for="1"><span>Создаем спрос</span> на объект ещё до размещения его в рекламен</label>
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-1" value='2' id='2'>
+                    <label for="2">Используем <span>закрытые базы</span> риэлторов</label>
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-1" value='3' id='3'>
+                    <label for="3">Продаем через собственную наработанную базу из <span>7000 клиентов</span></label>
+                </p>
+                <button>
+                    Вы получаете первые предложения о<br>
+                    покупке уже <span>через несколько часов</span>
+                </button>
+            </div>
+            <img src="img/form-preview-1.png" alt="form-preview-1" class="rigth__block__form">
+        </form>
+        <form action="" class="second__form form">
+            <div class="left__block__form">
+                <p class="form__preview">
+                    “Агрессивная” рекламная компания
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-2" value='1' id='1'>
+                    <label for="1">Делаем <span>профессиональную фото/видео съемку</span> объекта для рекламных объявлений</label>
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-2" value='2' id='2'>
+                    <label for="2">Размещаем рекламу на <span>58 площадках</span> в Интернете</label>
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-2" value='3' id='3'>
+                    <label for="3">Используем <span>17 рекламных каналов</span> для<br> 
+                    привлечения покупателей</label>
+                </p>
+                <button>
+                    За <span>21 день</span> вашу квартиру в живую<br>
+                    посмотрят от <span>100</span> до <span>200</span> покупа
+                </button>
+            </div>
+            <img src="img/form-preview-2.png" alt="form-preview-1" class="rigth__block__form">
+        </form>
+        <form action="" class="third__form form">
+            <div class="left__block__form">
+                <p class="form__preview">
+                    3 авторские<br>
+                    методики продаж
+                </p>
+                <div class="checkboxes">
+                    <p class='checkbox'>
+                        <input type="checkbox" name="answer-3" value='1' id='1'>
+                        <label for="1">Выходим на сделку по продаже уже на <span>7 день</span> благодаря технологии <span>SMART SALE</span></label>
+                    </p>
+                    <p class='checkbox'>
+                        <input type="checkbox" name="answer-3" value='2' id='2'>
+                        <label for="2">Устраиваем аукцион и <span>создаем конкуренцию</span> за объект среди  покупателей</label>
+                    </p>
+                    <p class='checkbox'>
+                        <input type="checkbox" name="answer-3" value='3' id='3'>
+                        <label for="3">Макисмально “накручиваем” цену на объект  благодаря чему продае <span>дороже рынка</span></label>
+                    </p>
+                    <button>
+                        Ваша квартира будет продана<br>
+                        до <span>10% дороже</span> рыночной цены
+                    </button>  
+                </div>
+            </div>
+            <img src="img/form-preview-3.png" alt="form-preview-1" class="rigth__block__form">
+        </form>
+    </div>
+    <div class="second__block__bg">
+        <div class="second__block">
+            <h2 class="preview__second__block">
+                Узнайте объективную стоимость вашей квартиры
+            </h2>
+            <h3>
+                Ответьте на <span>3 простых вопроса<br>
+                </span> прямо сейчас и узнайте<br>
+                рыночную стоимость вашей<br>
+                квартиры через <span>7 минут</span>
+            </h3>
+            <button class="find__cost__sales">
+                Ответить на вопросы
+            </button>
+        </div>
+    </div>
+    <div class="third__block__bg">
+        <div class="third__block">
+            <h2 class="preview__third__block">
+                Продайте недвижимость<br>
+                в залоге, ипотеке или с<br>
+                долгами <span>без потери в<br>
+                цене</span>
+            </h2>
+            <h3>
+                <span>3 причины</span> почему квартира с залогом или ипотекой<br>
+                будет продана по <span>максимальной рыночной цене:</span>
+            </h3>
+            <form class="checkboxes">
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-4" value='1' id='1'>
+                    <label for="1">
+                        Специализируемся на продаже<br>
+                        залоговой и ипотечной недвижимости<br>
+                        с 2008 года, знаем все нюансы
+                    </label>
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-4" value='2' id='2'>
+                    <label for="2">
+                        Избавим покупателя от страха покупки</br>
+                        гарантировав безопасность
+                    </label>
+                </p>
+                <p class='checkbox'>
+                    <input type="checkbox" name="answer-4" value='3' id='3'>
+                    <label for="3">
+                        Наша компания полностью погасит долг<br>
+                        своими деньгами до сделки  
+                    </label>
+                </p>
+                <button>
+                    Продать недвижимость дорого
+                </button>  
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
